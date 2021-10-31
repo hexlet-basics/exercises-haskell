@@ -22,4 +22,3 @@ compose-bash:
 
 compose-test:
 	docker-compose run exercises make test
-
