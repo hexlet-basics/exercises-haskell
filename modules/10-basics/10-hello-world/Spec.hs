@@ -25,7 +25,9 @@ shouldPrint action expectedLines = do
   case mbError of
     Nothing -> lines output `shouldBe` expectedLines
     Just err -> do
-      hPutStr stderr err
+      hPutStrLn stderr "=== ERROR ===="
+      hPutStrLn stderr err
+      hPutStrLn stderr "=============="
       expectationFailure "There was an error"
 
 catching :: IO () -> IO (Maybe String)
