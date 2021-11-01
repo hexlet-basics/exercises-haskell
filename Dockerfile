@@ -1,7 +1,7 @@
 FROM hexletbasics/base-image:latest
 
 RUN apt-get update
-RUN apt-get install -y haskell-platform libghc-hspec-expectations-dev
+RUN apt-get install -y haskell-platform libghc-hspec-dev
 
 WORKDIR /exercises-haskell
 
