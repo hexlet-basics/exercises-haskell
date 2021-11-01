@@ -3,5 +3,5 @@
 language:
   docker_image: "hexletbasics/exercises-haskell"
   extension: hs
-  exercise_filename: index.hs
-  exercise_test_filename: test.hs
+  exercise_filename: Solution.hs
+  exercise_test_filename: Spec.hs
