@@ -1,1 +1,1 @@
-runhaskell Spec.sh
+runhaskell Spec.hs
