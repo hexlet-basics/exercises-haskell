@@ -1,9 +1,7 @@
 FROM hexletbasics/base-image:latest
 
 RUN apt-get update
-RUN apt-get install -y haskell-platform
-
-RUN cabal update && cabal install --package-env=. --lib hspec hspec-contrib QuickCheck HUnit
+RUN apt-get install -y haskell-platform libghc-hspec-expectations-dev
 
 WORKDIR /exercises-haskell
 
