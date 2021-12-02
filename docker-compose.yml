@@ -1,11 +1,8 @@
 ---
 
-version: '3.7'
+version: '3'
 
 services:
   exercises:
-    build: .
-    volumes:
-      - .:/exercises-haskell
+    image: hexletbasics/exercises-haskell:cached
     command: make check
-
