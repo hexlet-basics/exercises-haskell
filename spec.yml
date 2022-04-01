@@ -5,6 +5,6 @@ language:
   extension: hs
   exercise_filename: Solution.hs
   exercise_test_filename: Spec.hs
-  learn_as: seconde_language
+  learn_as: second_language
   progress: in_development
   name: Haskell
