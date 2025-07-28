@@ -1,7 +1,7 @@
 ---
 
 language:
-  docker_image: "hexletbasics/exercises-haskell"
+  docker_image: "ghcr.io/hexlet-basics/exercises-haskell"
   extension: hs
   exercise_filename: Solution.hs
   exercise_test_filename: Spec.hs
