@@ -2,4 +2,5 @@
 
 services:
   exercises:
+    image: ghcr.io/hexlet-basics/exercises-haskell:test
     command: make check
