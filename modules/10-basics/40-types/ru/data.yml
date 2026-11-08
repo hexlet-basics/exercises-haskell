@@ -1,0 +1,4 @@
+---
+name: Сигнатуры и вывод типов
+tips:
+  - Для дополнительной практики можно посмотреть конкретные типы в GHCi через `:type`. [A Gentle Introduction, Values and Types](https://www.haskell.org/tutorial/goodies.html).

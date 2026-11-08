@@ -1,6 +1,5 @@
 ---
 
-version: '3'
 services:
   exercises:
     command: make check

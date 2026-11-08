@@ -1,0 +1,4 @@
+---
+name: Последовательность действий
+tips:
+  - Для дополнительной практики можно разобрать ошибку чистого значения в последней строке `do`. [Haskell 2010 Report, глава 7. Ввод и вывод](https://www.haskell.org/onlinereport/haskell2010/haskellch7.html).

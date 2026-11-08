@@ -1,0 +1,4 @@
+---
+name: Свёртка списка
+tips:
+  - Для дополнительной практики можно развернуть `foldr` для трёх элементов. [Learn You a Haskell, Higher Order Functions](https://learnyouahaskell.github.io/higher-order-functions.html).

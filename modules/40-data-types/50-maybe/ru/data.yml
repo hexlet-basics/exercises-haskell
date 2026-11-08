@@ -1,0 +1,4 @@
+---
+name: Отсутствие значения
+tips:
+  - Для дополнительной практики можно проследить передачу `Nothing` через два явных `case`. [Haskell 2010 Report, глава 21. Data.Maybe](https://www.haskell.org/onlinereport/haskell2010/haskellch21.html).

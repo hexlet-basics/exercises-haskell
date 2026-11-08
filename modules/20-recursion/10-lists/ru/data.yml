@@ -1,0 +1,4 @@
+---
+name: Списки
+tips:
+  - Для дополнительной практики можно сравнить построение списка через `:` с соединением через `++`. [Haskell 2010 Report, глава 3. Выражения](https://www.haskell.org/onlinereport/haskell2010/haskellch3.html).

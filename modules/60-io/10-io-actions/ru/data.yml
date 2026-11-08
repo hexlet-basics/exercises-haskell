@@ -1,0 +1,4 @@
+---
+name: Действия вывода
+tips:
+  - Для дополнительной практики можно прочитать конкретные сигнатуры `putStrLn` и `print`. [Haskell 2010 Report, глава 7. Ввод и вывод](https://www.haskell.org/onlinereport/haskell2010/haskellch7.html).

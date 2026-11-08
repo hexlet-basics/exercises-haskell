@@ -1,0 +1,4 @@
+---
+name: Лямбды и замыкания
+tips:
+  - Для дополнительной практики можно прочитать лямбду, которая возвращает другую лямбду. [Haskell 2010 Report, глава 3. Выражения](https://www.haskell.org/onlinereport/haskell2010/haskellch3.html).

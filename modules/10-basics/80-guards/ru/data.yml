@@ -1,0 +1,4 @@
+---
+name: Охранные условия
+tips:
+  - Для дополнительной практики можно изменить порядок пересекающихся условий и проследить результат. [A Gentle Introduction, Pattern Matching](https://www.haskell.org/tutorial/patterns.html).

@@ -1,0 +1,4 @@
+---
+name: Строки как списки символов
+tips:
+  - Для дополнительной практики можно проверить `words` на табуляции и пустом тексте. [Haskell 2010 Report, глава 9. Prelude](https://www.haskell.org/onlinereport/haskell2010/haskellch9.html).

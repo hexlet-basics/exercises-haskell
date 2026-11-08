@@ -1,4 +1,7 @@
 module Solution where
 
 main :: IO ()
-main = putStrLn "Hello, World!"
+main = putStrLn
+  -- BEGIN
+  "Hello, Haskell!"
+  -- END

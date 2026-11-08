@@ -1,0 +1,4 @@
+---
+name: Каррирование и частичное применение
+tips:
+  - Для дополнительной практики можно сопоставить частичное применение с эквивалентной лямбдой. [Learn You a Haskell, Higher Order Functions](https://learnyouahaskell.github.io/higher-order-functions.html).

@@ -1,0 +1,4 @@
+---
+name: Ожидаемый отказ с причиной
+tips:
+  - Для дополнительной практики можно выбрать `Maybe` или `Either` для разных контрактов. [Документация модуля `Data.Either`](https://hackage.haskell.org/package/base/docs/Data-Either.html).

@@ -1,0 +1,4 @@
+---
+name: Композиция функций
+tips:
+  - Для дополнительной практики можно сравнить эквивалентные формы со скобками, `.` и `$`. [Learn You a Haskell, Higher Order Functions](https://learnyouahaskell.github.io/higher-order-functions.html).

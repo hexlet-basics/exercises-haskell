@@ -1,0 +1,4 @@
+---
+name: Локальные определения
+tips:
+  - Для дополнительной практики можно сопоставить области видимости `let` и `where`. [Haskell 2010 Report, глава 3. Выражения](https://www.haskell.org/onlinereport/haskell2010/haskellch3.html).

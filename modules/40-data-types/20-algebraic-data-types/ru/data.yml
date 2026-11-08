@@ -1,0 +1,4 @@
+---
+name: Собственные типы и варианты
+tips:
+  - Для дополнительной практики можно различить имя типа и имя конструктора. [Haskell 2010 Report, глава 4. Объявления и определения](https://www.haskell.org/onlinereport/haskell2010/haskellch4.html).

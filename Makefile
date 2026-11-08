@@ -1,34 +1,35 @@
+.DEFAULT_GOAL := compose-setup
+
 -include /opt/basics/common/common.mk
+
+check: support-test
+
+support-test:
+	timeout --kill-after=5s 30s runhaskell -ilib test/Spec.hs
 
 compose-setup: compose-build
 
 compose:
-	docker-compose up
+	docker compose up
 
 compose-build:
-	docker-compose build
+	docker compose build
 
 code-lint:
-	# java -jar /opt/checkstyle.jar -c checkstyle.xml modules src
-
-# compile:
-	# @(for i in $$(find . -type f -name Main.java); do javac $$(dirname $$i)/*.java ; done)
-
-# clean:
-#   @$$(find . -type f -name *.class -delete)
+	ghc -fno-code -Wall -Werror lib/ExerciseTest.hs
 
 compose-bash:
-	docker-compose run exercises bash
+	docker compose run --rm exercises bash
 
 compose-test:
-	docker-compose run exercises make test
+	docker compose run --rm exercises make test
 
 compose-description-lint:
-	docker-compose run exercises make description-lint
+	docker compose run --rm exercises make description-lint
 
 compose-schema-validate:
-	docker-compose run exercises make schema-validate
+	docker compose run --rm exercises make schema-validate
 
 ci-check:
-	docker-compose --file docker-compose.yml build
-	docker-compose --file docker-compose.yml up --abort-on-container-exit
+	docker compose build
+	docker compose up --abort-on-container-exit --exit-code-from exercises

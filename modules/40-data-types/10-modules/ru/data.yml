@@ -1,0 +1,4 @@
+---
+name: Модули и стандартная библиотека
+tips:
+  - Для дополнительной практики можно исследовать импортированную функцию в GHCi. [Haskell 2010 Report, глава 5. Модули](https://www.haskell.org/onlinereport/haskell2010/haskellch5.html).

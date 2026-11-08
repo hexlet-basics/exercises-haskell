@@ -1,2 +1,4 @@
 ---
-name: Второй язык программирования
+name: Чистые функции
+tips:
+  - Для дополнительной практики можно различить вычисление строки и её вывод. [A Gentle Introduction, Functions](https://www.haskell.org/tutorial/functions.html).

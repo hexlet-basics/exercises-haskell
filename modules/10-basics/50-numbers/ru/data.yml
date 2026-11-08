@@ -1,0 +1,4 @@
+---
+name: Числовые вычисления
+tips:
+  - Для дополнительной практики можно проверить `div` и `mod` на отрицательных аргументах. [Haskell 2010 Report, глава 6. Стандартные типы и классы](https://www.haskell.org/onlinereport/haskell2010/haskellch6.html).

@@ -1,0 +1,4 @@
+---
+name: Результат действия
+tips:
+  - Для дополнительной практики можно сравнить типы действий с результатами `()`, `Bool` и `Integer`. [Haskell 2010 Report, глава 7. Ввод и вывод](https://www.haskell.org/onlinereport/haskell2010/haskellch7.html).

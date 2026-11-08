@@ -1,0 +1,4 @@
+---
+name: Преобразование элементов списка
+tips:
+  - Для дополнительной практики можно сопоставить `map` с рекурсивным преобразованием списка. [Learn You a Haskell, Higher Order Functions](https://learnyouahaskell.github.io/higher-order-functions.html).

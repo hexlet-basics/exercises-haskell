@@ -1,0 +1,4 @@
+---
+name: Логика и условные выражения
+tips:
+  - Для дополнительной практики можно разобрать ошибку несовместимых типов ветвей. [Haskell 2010 Report, глава 3. Выражения](https://www.haskell.org/onlinereport/haskell2010/haskellch3.html).

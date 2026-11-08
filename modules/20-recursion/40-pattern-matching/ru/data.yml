@@ -1,0 +1,4 @@
+---
+name: Сопоставление с образцом
+tips:
+  - Для дополнительной практики можно найти неполное сопоставление в небольшом определении. [A Gentle Introduction, Pattern Matching](https://www.haskell.org/tutorial/patterns.html).

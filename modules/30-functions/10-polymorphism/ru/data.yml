@@ -1,0 +1,4 @@
+---
+name: Параметры типов
+tips:
+  - Для дополнительной практики можно прочитать полные сигнатуры `fst`, `snd` и `take`. [A Gentle Introduction, Values and Types](https://www.haskell.org/tutorial/goodies.html).
